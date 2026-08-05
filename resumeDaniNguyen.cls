@@ -9,6 +9,7 @@
 \RequirePackage{calc}
 \RequirePackage{amsmath}
 \RequirePackage[hidelinks]{hyperref}
+\RequirePackage{changepage}
 
 % Layout settings
 \pagestyle{empty}
