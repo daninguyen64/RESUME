@@ -16,6 +16,7 @@
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
 \posttitle{\par\end{center}}
+\pagenumbering{gobble}
 
 % Define margins
 \geometry{top    = -0.01\paperheight,
