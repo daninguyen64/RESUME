@@ -1,7 +1,7 @@
 % Class name and version
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{resumeDaniNguyen}[08/04/2026 v1.0 Simple Resume Class]
-\LoadClass[12pt, letterpaper]{article}
+\ProvidesClass{resumeDaniNguyen}[08/09/2026 v1.1 Simple Resume Class]
+\LoadClass[11pt, letterpaper]{article}
 % Required packages
 \RequirePackage{geometry}
 \RequirePackage{xhfill}
@@ -10,19 +10,15 @@
 \RequirePackage{amsmath}
 \RequirePackage[hidelinks]{hyperref}
 \RequirePackage{changepage}
+\RequirePackage{titling}
 
 % Layout settings
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
+\posttitle{\par\end{center}}
 
-% Define lengths for margins and sidebar
-\newlength\topbottommargin
-\newlength\leftrightmargin
-
-\setlength{\topbottommargin}{0.04\paperheight}
-\setlength{\leftrightmargin}{0.08\paperwidth}
-
-\geometry{top=\topbottommargin,
-          bottom=\topbottommargin,
-          left=\leftrightmargin,
-          right=\leftrightmargin}
+% Define margins
+\geometry{top    = -0.01\paperheight,
+          bottom = 0.03\paperheight,
+          left   = 0.07\paperwidth,
+          right  = 0.07\paperwidth}
